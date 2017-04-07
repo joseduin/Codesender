@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="codesender.codesender.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView android:text="Code:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/codelabel" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/codeInput" android:hint="Enter your code here"
+        android:inputType="textNoSuggestions"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:id="@+id/button"
+        android:paddingRight="@dimen/buttom_paddins"
+        android:paddingLeft="@dimen/buttom_paddins"
+        android:layout_gravity="center_horizontal"
+        android:theme="@style/MiBotonRaised" />
+
+</LinearLayout>

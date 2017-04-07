@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CodeSender"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@android:drawable/ic_media_play"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press button to continue"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:id="@+id/textHide"
+        android:layout_gravity="center"
+        android:layout_below="@+id/fab_continue"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

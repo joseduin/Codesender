@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    tools:context=".ManualPhoneNumberFragment">
+<!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For the correct operation of CodeSender you must provide your phone number"
+        android:layout_marginTop="10sp" />
+-->
+    <TextView
+        android:text="Phone number:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phoneToSave"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter your phone number" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/savePhone"
+        android:paddingRight="@dimen/buttom_paddins"
+        android:paddingLeft="@dimen/buttom_paddins"
+        android:layout_gravity="center_horizontal"
+        android:theme="@style/MiBotonRaised" />
+
+</LinearLayout>
